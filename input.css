@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    /* section 2nd */
+    .inclined
+    {
+        clip-path:polygon( 0% 0%,   /* Top left corner */
+        100% 0%, /* Top right corner */
+        98% 100%,/* Bottom right corner with inclination */
+        2% 100%
+        );
+        border-top-left-radius: 10px;
+        border-top-right-radius:10px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius:35px;
+        background-image: url("images/image_01.png");
+        background-repeat: no-repeat;
+    }
+    
+    /* section 6 & 7 */
+    /* .bg-img
+    {
+        background-image: url("images/bg.png");
+    } */
+    /* .bg-img1
+    {
+        background-image: url("images/testi-bg-3-1.png");
+    } */
+     .bg-image1{
+        background-image: url("images/service-shape-right.png");
+        background-repeat: no-repeat;
+        background-position: right;
+     }
+     .bg-image2
+     {
+        background-image: url("images/breadcrumb-shape-1.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:150px;
+     }
+     /* .bg-image3
+     {
+        background-image: url("images/hero-4-3.png");
+        background-repeat: no-repeat;
+     }
+     .bg-image4
+     {
+        background-image: url("images/hero-4-3.png");
+        background-repeat: no-repeat;
+        background-position: left;
+     } */
+
+
+    /* section 3 */
+    /* .left-border
+    {
+        position: relative;
+        padding: 0px 5px;
+    }
+    .left-borde p::before
+    {
+        content: '';
+        border: 2px solid white;
+        height:5px;
+        width:2px;
+        position: absolute;
+        bottom:0px;
+        left:10px;
+    } */
+    
+    /* section 5 */
+    .grdt-color
+    {
+        background-image:linear-gradient(to bottom right,#3b3838,#282626cb,#070707e6) ;
+    }
+    /* section 8 */
+    .bg-main
+    {
+        background-image: linear-gradient(to right,rgb(32, 31, 31),rgba(69, 69, 94, 0.905),rgba(78, 78, 142, 0.905));
+    }
+    
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1200px;
+        }
+    }
