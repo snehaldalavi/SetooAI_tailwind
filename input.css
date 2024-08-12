@@ -10,10 +10,10 @@
         98% 100%,/* Bottom right corner with inclination */
         2% 100%
         );
-        border-top-left-radius: 10px;
-        border-top-right-radius:10px;
-        border-bottom-left-radius: 35px;
-        border-bottom-right-radius:35px;
+        border-top-left-radius: 20px;
+        border-top-right-radius:20px;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius:45px;
         background-image: url("images/image_01.png");
         background-repeat: no-repeat;
     }
@@ -72,7 +72,7 @@
     /* section 5 */
     .grdt-color
     {
-        background-image:linear-gradient(to bottom right,#3b3838,#282626cb,#070707e6) ;
+        background-image:linear-gradient(to bottom right,#3b3939,#2b2a2acb,#101010e6) ;
     }
     /* section 8 */
     .bg-main

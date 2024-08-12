@@ -44,7 +44,7 @@ module.exports = {
       borderWidth :
       {
         '2' : '1px',
-        '3' : '2px'
+        '3' : '3px'
       },
       borderRadius :
       {
@@ -59,7 +59,7 @@ module.exports = {
         '23' : '125px',
         '24' : '108px',
         '25' : '100px',
-        'full' : '415px'
+        'full':'415px'
       },
       height :{
         '22' : '81px',
@@ -90,6 +90,9 @@ module.exports = {
       lineHeight : {
         '11' : '103px',
         '12' : '75px'
+      },
+      margin : {
+        '50' : '173px'
       },
       },
       backgroundImage :{
