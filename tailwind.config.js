@@ -94,6 +94,9 @@ module.exports = {
       margin : {
         '50' : '173px'
       },
+      gap : {
+        '65' : '280px'
+      },
       },
       backgroundImage :{
         'hero' : 'url(images/hero-4-3.png)',
