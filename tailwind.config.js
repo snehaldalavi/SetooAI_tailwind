@@ -2,109 +2,103 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     extend: {
-      colors: {
-        orange : {
-          '50' : '#ff5733'
-        },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      colors : {
         gray : {
-          '50' : '#292a2c',
-          '51' : '#fff',
-          '52' : '#fff9',
-          '53' : '#ffffff29',
-          '54' : '#ffffffcc',
-          '55' : '#ffffffb3',
-          '56' : '#1b1b1c',
-          '57' : '#eaeaec',
-          '58' : '#ffffff80',
-          '100' : '#ffffff1b',
-          '200' : '#2c2b2b56',
-          '300' : '#ffffff17',
-          '301' : '#ffffff05',
-          '302' : '#ffffff1a',
-          '303' : '#888888',
-          '304' : '#7f818a',
-          '305' : '#494949',
-          '306' : '#d1d1d2'
+          '50' : '#344054',
+          '51' : '#98A2B3',
+          '52' : '#b6b6b6',
+          '53' : '#EAECF0',
+          '54' : '#6c757d',
+          '55' : '#1d2939'
+        },
+        green : {
+          '50' : '#00715d',
+          '51' : '#F2F8F7',
+          '52' : '#009688',
+          '53' : '#DAEBE8',
+          '54' : '#00715D',
+          '55' : '#CCE3DF',
+          '56' : '#E6F1EF'
         },
         black : {
-          '56' :'#1b1b1c'
+          '50' : '#101828'
         },
         blue : {
-          '50' : '#5138ee'
+          '50' : '#101828',
+          '51' : '#202F4E',
+          '52' : '#131d30'
         },
         white : {
-          '100' : 'rgb(255 255 255)',
-          '50' : '#ffffffcc',
-          '0' : 'ffffff'
+          '50' : '#f8f9fa',
+          '51' : '#ffff'
         },
-        // backgroundImage: {
-        //   'gradient-linear' : 'linear-gradient(to bottom right,#3b3838,#282626cb,#070707e6)'
-        // },
+        yellow : {
+          '50' : '#ffc107'
+        },
       },
-      borderWidth :
-      {
-        '2' : '1px',
-        '3' : '3px'
-      },
-      borderRadius :
-      {
-        '3xl' : '30px',
-        '4xl' : '50px'
-      },
-      width : {
-        '97' : '90%',
-        '100' : '100%',
-        '21' : '128px',
-        '24' : '126px',
-        '23' : '125px',
-        '24' : '108px',
-        '25' : '100px',
-        '26' : '85px',
-        'full':'415px'
-      },
-      height :{
-        '22' : '81px',
-        '23' :'85px',
-        '40per' : '40%'
-      },
-      fontFamily :{
-        'sans' : 'Plus Jakarta Sans, sans-serif'
+      marginLeft : {
+        '73' : '200px'
       },
       fontSize : {
-        'xs' : '13px',
-        'sm1' : '15px',
-        'base1' : '17px',
-        'xl1' :'22px',
-        'xl2' : '26px',
-        'xl3' :'58px',
-        'xl4' : '19px',
-        '7xl' : '70px',
-        '8xl' : '50px',
-        '9xl' : '45px',
-        '10xl' : '96px',
-        '11xl' : '40px',
-        '12xl' : '31px',
+        'xxs' : '8px',
+        'xs1' : '13px',
         'lg1' : '20px',
-        'lg2' : '25px',
-        '42' : '42px'
+        'lg2' : '30px',
+        '3xl1' : '32px',
+        '3xl2' : '38px',
+        '3xl3' : '45px',
+        '2xl1' : '25px',
+        '2xl2' : '24px',
+        '5xl1' : '55px'
+      },
+      height : {
+        '15' : '60px',
+        '17' : '66px',
+        '1.1' : '1px',
+        '0.5' : '6.5px',
+        '0.6' : '5px',
+        '25' : '25%',
+        '40per' : '40%',
+        '45per' : '45%',
+        '50' : '50%' ,
+        '100' : '100%',
+        '73' : '307px'
+      },
+      width : {
+        '15' : '60px',
+        '17' : '66px',
+        '25' : '25%',
+        '30per' : '30%',
+        '40per' : '40%',
+        '45per' : '45%',
+        '50' : '50%',
+        '60per' : '60%',
+        '70per' : '70%',
+        '75per' : '75%',
+        '80per' :'80%',
+        '90per' :'90%',
+        '100' : '100%',
+        '73' : '310px',
+        '57' : '230px'
       },
       lineHeight : {
-        '11' : '103px',
-        '12' : '75px',
-        '13' : '70px'
+        '1' : '1.2'
       },
-      margin : {
-        '50' : '173px',
-        '3.5' : '15px'
+      borderRadius : {
+        '4xl' : '30px',
+        '5xl' : '100px'
       },
-      gap : {
-        '65' : '280px'
+      borderWidth : {
+        '0' : '1px',
+        '3' : '3px'
       },
+      outlineWidth : {
+        '0' : '1px'
       },
-      backgroundImage :{
-        'hero' : 'url(images/hero-4-3.png)',
-        'bgImg':'url(images/bg.png)'
-      },
+    },
     screens: {
       'sm': '425px', // Change this value to your desired small screen width
       // Include the other default breakpoints if you need them
@@ -116,4 +110,3 @@ module.exports = {
   },
   plugins: [],
 }
-
